@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ff00ff">
+        <animate attributeName="stop-color" values="#ff00ff;#ff7f7f;#00ffff;#ff00ff" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="33%" stop-color="#ff7f7f">
+        <animate attributeName="stop-color" values="#ff7f7f;#9a4eff;#00ff00;#ff7f7f" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="66%" stop-color="#9a4eff">
+        <animate attributeName="stop-color" values="#9a4eff;#00ff00;#ff7f7f;#9a4eff" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00ffff">
+        <animate attributeName="stop-color" values="#00ffff;#ff00ff;#ff7f7f;#00ffff" dur="3s" repeatCount="indefinite" />
+      </stop>
+    </radialGradient>
+  </defs>
+  <style>
+    @keyframes rotate-clockwise {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes rotate-counterclockwise {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
+    }
+
+    .outer {
+      animation: rotate-clockwise 2s linear infinite;
+      transform-origin: center;
+    }
+
+    .inner {
+      animation: rotate-counterclockwise 2s linear infinite;
+      transform-origin: center;
+    }
+
+    .additional {
+      animation: rotate-clockwise 3s linear infinite;
+      transform-origin: center;
+    }
+
+    .inner-additional {
+      animation: rotate-counterclockwise 3s linear infinite;
+      transform-origin: center;
+    }
+
+    .extra {
+      animation: rotate-clockwise 4s linear infinite;
+      transform-origin: center;
+    }
+
+    .inner-extra {
+      animation: rotate-counterclockwise 4s linear infinite;
+      transform-origin: center;
+    }
+  </style>
+  <g class="outer">
+    <circle cx="100" cy="100" r="90" fill="none" stroke="url(#gradient)" stroke-width="15" stroke-dasharray="270 90" stroke-linecap="round" transform="rotate(-90 100 100)" />
+  </g>
+  <g class="inner">
+    <circle cx="100" cy="100" r="70" fill="none" stroke="url(#gradient)" stroke-width="10" stroke-dasharray="180 180" stroke-linecap="round" transform="rotate(90 100 100)" />
+  </g>
+  <g class="additional">
+    <circle cx="100" cy="100" r="50" fill="none" stroke="url(#gradient)" stroke-width="8" stroke-dasharray="90 270" stroke-linecap="round" transform="rotate(-90 100 100)" />
+  </g>
+  <g class="inner-additional">
+    <circle cx="100" cy="100" r="30" fill="none" stroke="url(#gradient)" stroke-width="5" stroke-dasharray="45 315" stroke-linecap="round" transform="rotate(90 100 100)" />
+  </g>
+  <g class="extra">
+    <circle cx="100" cy="100" r="20" fill="none" stroke="url(#gradient)" stroke-width="4" stroke-dasharray="45 315" stroke-linecap="round" transform="rotate(-90 100 100)" />
+  </g>
+  <g class="inner-extra">
+    <circle cx="100" cy="100" r="10" fill="none" stroke="url(#gradient)" stroke-width="3" stroke-dasharray="45 315" stroke-linecap="round" transform="rotate(90 100 100)" />
+  </g>
+</svg>
