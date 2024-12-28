@@ -89,7 +89,7 @@ const Navbar = () => {
             </li>
             <li>
               <a 
-                className='block px-8 py-3 tracking-tighter hover:bg-gray-50 transition-colors' 
+                className='block z-10 px-8 py-3 tracking-tighter hover:bg-gray-50 transition-colors' 
                 href="/resume"
                 onClick={() => setIsMenuOpen(false)}
               >
