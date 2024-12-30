@@ -38,28 +38,14 @@ const Bison = () => {
           src="/Triangle.svg"
           alt="triangle"
         />
-        {/* Overlay Text */}
-        <span className="absolute z-10 bottom-[55%] left-[5%] text-xl sm:text-2xl lg:text-3xl font-bold font-poppins text-white">
-          Protect Bison
-        </span>
+        
         {/* Bison Image */}
         <img
           className="absolute left-[0%] w-[80%] sm:w-[85%] lg:w-[90%] object-contain"
-          src="/bison.jpg"
+          src="/bison.svg"
           alt="bison"
         />
-        {/* Phone SVG */}
-        <img
-          className="absolute w-[25%] sm:w-[30%] lg:w-[40%] right-[5%] bottom-[10%] lg:bottom-[-8%]"
-          src="/phone.svg"
-          alt="phone"
-        />
-        {/* Bison SVG */}
-        <img
-          className="absolute w-[25%] sm:w-[30%] lg:w-[37%] right-[5.8%] bottom-[8%] lg:bottom-[-5.5%]"
-          src="/bison.svg"
-          alt="bison logo"
-        />
+        
       </div>
     </div>
   );

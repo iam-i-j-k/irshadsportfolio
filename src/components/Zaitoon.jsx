@@ -6,17 +6,12 @@ const Zaitoon = () => {
       {/* Image Container */}
       <div className="relative w-full lg:w-1/2 aspect-square max-w-xl flex items-center justify-center">
         <img
-          className="absolute transform rotate-[34.82deg] w-[60%] sm:w-[65%] lg:w-[75%]"
-          src="/Rectangle.jpg"
+          className="absolute w-[60%] sm:w-[65%] lg:w-[80%]"
+          src="/Rectangle.svg"
           alt="container"
         />
         <img
-          className="absolute w-[90%] sm:w-[95%] lg:w-[100%] transform translate-x-8"
-          src="/laptop.svg"
-          alt="laptop"
-        />
-        <img
-          className="absolute w-[40%] sm:w-[45%] lg:w-[65%] left-[10%] bottom-[27%] transform -translate-x-4"
+          className="absolute w-[40%] sm:w-[45%] lg:w-[80%] left-[17%] bottom-[27%] transform -translate-x-4"
           src="/zaitoon.svg"
           alt="zaitoon"
         />

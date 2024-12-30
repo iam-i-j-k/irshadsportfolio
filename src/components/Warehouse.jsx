@@ -10,11 +10,7 @@ const Warehouse = () => {
           src="/star.svg"
           alt="container"
         />
-        <img
-          className="absolute w-[80%] sm:w-[85%] lg:w-[90%]"
-          src="/frontfacedlaptop.svg"
-          alt="laptop"
-        />
+        
         <img
           className="absolute w-[40%] sm:w-[45%] lg:w-[78%] left-[13.5%] bottom-[28%] transform -translate-x-4"
           src="/warehouse.svg"
