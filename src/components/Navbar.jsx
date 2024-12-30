@@ -76,7 +76,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <div className='absolute top-20 left-0 right-0 bg-white shadow-lg md:hidden'>
+        <div className='absolute z-10 top-20 left-0 right-0 bg-white shadow-lg md:hidden'>
           <ul className='flex flex-col py-4 font-opensans text-sm'>
             <li>
               <a 

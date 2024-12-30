@@ -11,7 +11,6 @@ const Music = () => {
         <p className="text-white font-poppins text-center lg:text-left text-sm sm:text-base lg:text-lg max-w-prose">
             The true premier music app designed for true audiophiles.
         </p>
-        
         <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 w-full max-w-xl">
           <div className="text-white font-poppins text-sm sm:text-base">
             <strong>Project type:</strong> Mobile Application
@@ -30,7 +29,6 @@ const Music = () => {
           View case study
         </a>
       </div>
-
       {/* Image Section */}
       <div className="relative w-full lg:w-1/2 aspect-square max-w-lg flex items-center justify-center">
         {/* Blade SVG */}
@@ -50,7 +48,6 @@ const Music = () => {
           src="/iphone2.svg"
           alt="iphone2"
         />
-        
       </div>
     </div>
   )

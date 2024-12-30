@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Bison = () => {
+  
   return (
     <div className="min-h-screen bg-[#97927C] p-4 flex flex-col lg:flex-row items-center justify-center gap-8">
       {/* Text Section */}
@@ -29,7 +30,6 @@ const Bison = () => {
           View case study
         </a>
       </div>
-
       {/* Image Section */}
       <div className="relative w-full lg:w-1/2 aspect-square max-w-lg flex items-center justify-center">
         {/* Triangle SVG */}
@@ -38,14 +38,12 @@ const Bison = () => {
           src="/Triangle.svg"
           alt="triangle"
         />
-        
         {/* Bison Image */}
         <img
           className="absolute left-[0%] w-[80%] sm:w-[85%] lg:w-[90%] object-contain"
           src="/bison.svg"
           alt="bison"
         />
-        
       </div>
     </div>
   );
