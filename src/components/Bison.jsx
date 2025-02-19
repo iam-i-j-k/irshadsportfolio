@@ -24,7 +24,7 @@ const Bison = () => {
           </div>
         </div>
         <a
-          href="/"
+          href="/bisoncasestudy"
           className="mt-6 bg-[#454563] bg-opacity-90 tracking-[0.03em] font-bold font-poppins text-xs sm:text-sm text-white antialiased py-3 px-5 lg:py-4 lg:px-6 rounded-full hover:bg-opacity-100 transition-all"
         >
           View case study

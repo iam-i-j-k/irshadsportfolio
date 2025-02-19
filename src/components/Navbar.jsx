@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
-    <nav className='relative'>
+    <nav className='top-0 left-0 right-0 bg-white shadow-md fixed z-20'>
       {/* Desktop & Mobile Navigation */}
       <div className='h-20 px-4 sm:px-8 lg:px-20 flex justify-between items-center'>
         {/* Logo Section */}
@@ -14,7 +13,6 @@ const Navbar = () => {
           </span>
           <p className='text-2xl sm:text-3xl font-redressed'>Irshad khan</p>
         </div>
-
         {/* Desktop Menu */}
         <div className='hidden md:flex'>
           <ul className='flex items-center space-x-8 lg:space-x-10 font-opensans text-sm'>
@@ -35,7 +33,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-
         {/* Mobile Menu Button */}
         <button 
           className='md:hidden w-6 h-6 flex items-center justify-center'
@@ -73,7 +70,6 @@ const Navbar = () => {
           )}
         </button>
       </div>
-
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
         <div className='absolute z-10 top-20 left-0 right-0 bg-white shadow-lg md:hidden'>

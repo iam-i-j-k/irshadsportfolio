@@ -2,9 +2,9 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="min-h-[80vh] mx-auto mt-16 sm:mt-24 lg:mt-40 w-[90vw] sm:w-[85vw] lg:w-[70vw] bg-[#FFE606] rounded-t-full relative px-4">
+    <div className="sm:h-[80vh] h-[50vh] mx-auto mt-48 sm:mt-24 lg:mt-60 w-[90vw] sm:w-[85vw] lg:w-[70vw] bg-[#FFE606] rounded-t-full relative px-4">
       {/* Container for all content with adjusted vertical centering */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center -translate-y-12 sm:-translate-y-16 lg:-translate-y-48">
+      <div className="absolute inset-0 flex flex-col items-center justify-center -translate-y-24 sm:-translate-y-16 lg:-translate-y-48">
         {/* Top text */}
         <p className="text-xl sm:text-2xl lg:text-3xl mb-4 sm:mb-6 lg:mb-8 font-poppins text-center">
           Hi, I am
