@@ -12,7 +12,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path="/bisoncasestudy" element={<BisonCaseStudy />} />
+        <Route path="/bisoncasestudy" Component={<BisonCaseStudy />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
