@@ -2,7 +2,7 @@ import React from 'react'
 
 const Music = () => {
   return (
-    <div className="min-h-screen bg-[#97927C] p-4 flex flex-col lg:flex-row items-center justify-center gap-8">
+    <div className="min-h-screen bg-[#B8A552] p-4 flex flex-col lg:flex-row items-center justify-center gap-8">
       {/* Text Section */}
       <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start space-y-4 max-w-2xl mx-auto">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-poppins text-white text-center lg:text-left">
@@ -37,7 +37,6 @@ const Music = () => {
           src="/blade.svg"
           alt="blade"
         />
-        {/* Bison Image */}
         <img
           className="absolute left-[0%] w-[40%] sm:w-[45%] lg:w-[50%] object-contain"
           src="/iphone1.svg"
