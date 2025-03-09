@@ -1,4 +1,3 @@
-
 import React, { useState } from "react"
 
 export default function Flowchart() {
@@ -14,7 +13,7 @@ export default function Flowchart() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-white">
-      <div className="flex flex-col items-center max-w-5xl">
+      <div className="flex flex-col items-center max-w-5xl w-full">
         {/* Start node */}
         <div
           className="px-6 py-2 mb-4 text-black font-medium bg-yellow-300 rounded-md"
@@ -33,7 +32,7 @@ export default function Flowchart() {
         </div>
 
         {/* Main sections */}
-        <div className="grid grid-cols-4 gap-4 w-full mb-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 w-full mb-4">
           <div className="flex flex-col items-center">
             <div
               className="px-6 py-2 text-black font-medium bg-yellow-300 rounded-md w-full text-center"
@@ -73,7 +72,7 @@ export default function Flowchart() {
         </div>
 
         {/* Home flow */}
-        <div className="grid grid-cols-4 gap-4 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 w-full">
           <div className="flex flex-col items-center">
             <div className="w-px h-8 bg-gray-300"></div>
             <div
