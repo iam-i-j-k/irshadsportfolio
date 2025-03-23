@@ -1,5 +1,5 @@
 import React from 'react'
-import Page1 from './Zaitoon/page1'
+import Page1 from './Zaitoon/Page1'
 import Footer from './Footer'
 import Page2 from './Zaitoon/Page2'
 import Page3 from './Zaitoon/Page3'
