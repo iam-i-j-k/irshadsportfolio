@@ -7,6 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        inriasans: ['"Inria Sans"', 'sans-serif'],
+        inriaserif: ['"Inria Serif"', 'serif'],
         redressed: ['"Redressed"', 'cursive'],
         opensans: ['"Open Sans"', 'sans-serif'],
         inter: ["Inter", "sans-serif"],
