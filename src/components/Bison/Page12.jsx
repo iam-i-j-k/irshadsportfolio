@@ -5,7 +5,7 @@ const Page12 = () => {
     <div className="flex flex-col items-start justify-center p-4 sm:p-6 md:p-10 pt-12 md:pt-20 gap-8 md:gap-32 max-w-full overflow-hidden">
         <div className="flex items-center gap-3">
             <h1 className="text-xl sm:text-2xl font-bold font-poppins">
-                High Fidelity Mockup
+                Next Project
             </h1>
         </div>
         <div className='flex w-full items-center justify-center gap-16 pl-5'>

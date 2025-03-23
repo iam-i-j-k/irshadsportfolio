@@ -12,6 +12,8 @@ import Page9 from './Zaitoon/Page9'
 import Page10 from './Zaitoon/Page10'
 import Page11 from './Zaitoon/Page11'
 import Page12 from './Zaitoon/Page12'
+import Page13 from './Zaitoon/Page13'
+import Page14 from './Zaitoon/Page14'
 
 const ZaitoonCaseStudy = () => {
   return (
@@ -40,7 +42,10 @@ const ZaitoonCaseStudy = () => {
       <Page11 />
       {/* { twelfth page } */}
       <Page12 />
-      
+      {/* { thirteenth page} */}
+      <Page13 />
+      {/* { fourteenth page} */}
+      <Page14 />
       <Footer />
     </div>
   )
