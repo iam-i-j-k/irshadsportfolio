@@ -103,7 +103,7 @@ const users = [
                     </div>
   
                     {/* Basic Info */}
-                    <div className="space-y-4 mt-2 bg-[#D9D9D9] p-5">
+                    <div className="space-y-4 mt-2 bg-[#D9D9D9] p-3 rounded-xl">
                       <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
                         <span className="font-semibold text-base sm:text-lg">Name:</span>
                         <span>{user.name}</span>
@@ -114,7 +114,7 @@ const users = [
                         <span>{user.age}</span>
                       </div>
   
-                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-start gap-1 sm:gap-2">
+                      <div className="flex flex-col items-start justify-start gap-1 sm:gap-2">
                         <span className="font-semibold h-fit text-base sm:text-lg">Occupation:</span>
                         <span>{user.occupation}</span>
                       </div>
