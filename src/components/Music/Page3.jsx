@@ -21,6 +21,9 @@ const Page3 = () => {
             View hi-fi prototype
             </a>
         </div>
+        <div className='text-3xl md:text-5xl w-full flex items-center justify-center font-bold font-inter'>
+            Thankyou for scrolling through  project 
+        </div>
     </div>
   )
 }

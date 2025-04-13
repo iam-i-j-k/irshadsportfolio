@@ -2,15 +2,15 @@ import React from 'react'
 
 const Page1 = () => {
   return (
-    <div className="relative bg-[#B8A552] min-h-screen flex flex-col md:flex-row items-center md:items-start justify-center p-6 md:p-0">
-    <div className="w-full pt-10 md:w-[50vw] flex justify-center md:justify-start">
+    <div className="relative bg-[#B8A552] min-h-screen flex flex-col md:flex-row items-center justify-center p-6 md:p-0">
+    <div className="w-full pt-10 md:w-[50vw] flex justify-center">
       <img
-        className="absolute w-[10%] md:w-[25%] object-contain"
+        className="absolute top-0 left-0 w-[10%] md:w-[25%] object-contain"
         src="/iphone1.svg"
         alt="music"
       />
       <img 
-        className="absolute left-[10%] top-[20%] md:left-[16%] w-[10%] md:w-[16%] object-contain"
+        className="absolute left-[10%] top-[13%] md:left-[16%] w-[10%] md:w-[16%] object-contain"
         src="/iphone2.svg"
         alt="music"
       />
