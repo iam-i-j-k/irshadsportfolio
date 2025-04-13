@@ -12,7 +12,7 @@ const Page10 = () => {
         <h2 className="text-lg sm:text-xl font-bold font-poppins">Draft 1</h2>
       </div>
       <div className="relative p-10">
-        <img className="absolute left-[6%] top-[3%] w-[7vw]" src="/leftarrow.png" alt="leftarrow" />
+        <img className="absolute left-[9%] top-[8.5%] w-[6.5vw]" src="/leftarrow.png" alt="leftarrow" />
         <img src="/proto1.png" alt="prototype" />
       </div>
       <div className="flex flex-col sm:flex-col md:flex-row items-center justify-center gap-16 pl-5">

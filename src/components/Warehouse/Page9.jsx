@@ -9,7 +9,6 @@ const Page9 = () => {
         <div className='flex items-start justify-center gap-20 flex-wrap'>
             <img src="/infoarc1.png" alt="infoarc1" />
             <img src="/infoarc2.png" alt="infoarc2" />
-            <img src="/infoarc3.png" alt="infoarc3" />
             <img src="/infoarc4.png" alt="infoarc4" />
             <img src="/infoarc5.png" alt="infoarc5" />
             <img src="/infoarc6.png" alt="infoarc6" />
