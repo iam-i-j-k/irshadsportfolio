@@ -30,7 +30,6 @@ const users = [
       <div className="flex flex-col items-start justify-center p-4 sm:p-6 md:p-10 pt-12 md:pt-20 gap-8 md:gap-16 max-w-full overflow-hidden">
         <div className="flex items-center gap-3 w-full">
           <h1 className="text-xl sm:text-2xl font-bold font-poppins">User Persona</h1>
-          <div className="hidden sm:block h-px bg-gray-300 flex-grow"></div>
         </div>
   
         <div className="w-full space-y-8 md:space-y-12">
