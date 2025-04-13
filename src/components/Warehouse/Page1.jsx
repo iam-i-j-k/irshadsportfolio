@@ -19,7 +19,6 @@ const Page1 = () => {
                     Industry: Logistics Management
                 </p>
             </div>
-
         </div>
         <div>
                 <a
