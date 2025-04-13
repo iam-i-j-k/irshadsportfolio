@@ -24,6 +24,7 @@ const Page1 = () => {
         <div>
                 <a
                     href="https://rackup.vercel.app/dashboard"
+                    target='_blank'
                     className="bg-[#454563] absolute right-[35%] bottom-[15%] bg-opacity-90 tracking-[0.03em] font-bold font-poppins text-xs md:text-sm text-white py-[10px] px-5 lg:py-4 lg:px-6 rounded-full hover:bg-opacity-100 transition-all"
                 >
                     View hi-fi prototype
