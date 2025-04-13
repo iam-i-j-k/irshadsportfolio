@@ -9,12 +9,14 @@ const Navbar = () => {
       {/* Desktop & Mobile Navigation */}
       <div className="h-16 px-4 sm:px-8 lg:px-20 flex justify-between items-center">
         {/* Logo Section */}
-        <div className="flex items-center space-x-3 sm:space-x-5">
-          <span className="w-10 h-10 sm:w-12 sm:h-12 text-xl sm:text-2xl flex justify-center items-center rounded-full bg-[#BBEFFF] font-redressed">
-            ik
-          </span>
-          <p className="text-2xl sm:text-3xl font-redressed">Irshad Khan</p>
-        </div>
+        <a href="/">
+          <div className="flex items-center space-x-3 sm:space-x-5">
+            <span className="w-10 h-10 sm:w-12 sm:h-12 text-xl sm:text-2xl flex justify-center items-center rounded-full bg-[#BBEFFF] font-redressed">
+              ik
+            </span>
+            <p className="text-2xl sm:text-3xl font-redressed">Irshad Khan</p>
+          </div>
+        </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex">
