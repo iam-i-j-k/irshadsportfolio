@@ -55,7 +55,7 @@ const Footer = () => {
                     transform hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 
                     focus:ring-offset-2 focus:ring-opacity-50'>
               <a 
-                href="https://www.linkedin.com/in/irshad-khan-75a89a231"
+                href="https://medium.com/@irshadk0051"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label='Medium'
