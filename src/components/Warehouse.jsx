@@ -2,7 +2,7 @@ import React from 'react';
 
 const Warehouse = () => {
   return (
-    <div className="min-h-screen bg-[#8A8CE3] flex flex-col lg:flex-row items-center justify-center gap-8 p-4 lg:p-8">
+    <div className="min-h-screen bg-[#8C8DA3] flex flex-col lg:flex-row items-center justify-center gap-8 p-4 lg:p-8">
       {/* Image Container */}
       <div className="relative w-full lg:w-1/2 aspect-square max-w-xl flex items-center justify-center">
         <img

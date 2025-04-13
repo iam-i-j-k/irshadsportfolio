@@ -14,7 +14,8 @@ const Page9 = () => {
         </div>
         <div className='w-full flex justify-center items-center'>
             <a
-                href="/zaitooncasestudy"
+                target='_blank'
+                href="https://www.figma.com/design/5NeKHoeq9OcfELowzksbEq/re-design-zaitoon?node-id=73-117&t=Fka1YJeAqno0dSTv-1"
                 className="bg-[#454563] bg-opacity-90 tracking-[0.03em] font-bold font-poppins text-xs md:text-sm text-white py-3 px-5 lg:py-4 lg:px-6 rounded-full hover:bg-opacity-100 transition-all"
             >
                 View High fidelity wireframes

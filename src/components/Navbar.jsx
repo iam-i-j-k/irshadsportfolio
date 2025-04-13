@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="top-0 left-0 right-0 bg-white shadow-md sticky z-20">
       {/* Desktop & Mobile Navigation */}
-      <div className="h-20 px-4 sm:px-8 lg:px-20 flex justify-between items-center">
+      <div className="h-16 px-4 sm:px-8 lg:px-20 flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center space-x-3 sm:space-x-5">
           <span className="w-10 h-10 sm:w-12 sm:h-12 text-xl sm:text-2xl flex justify-center items-center rounded-full bg-[#BBEFFF] font-redressed">

@@ -6,10 +6,10 @@ import Music from './Music'
 
 const Projects = () => {
   return (
-    <div>
+    <div className='flex flex-col gap-2'>
+        <Warehouse />
         <Zaitoon />
         <Bison />
-        <Warehouse />
         <Music />
     </div>
   )
